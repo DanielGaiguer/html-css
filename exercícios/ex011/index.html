@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <H1>Imagens Dinamicas</H1>
+    <p>tente abrir este site em diversos dispositivos ou simplismente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png " type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em HTML</p>
+    <audio preload = "auto" controls autoplay>
+        <source src="midia/Cromag Beat - Silent Partner.mp3" type="audio/mpeg">
+        <source src="midia/Cromag Beat - Silent Partner.ogg" type="audio/ogg">
+        <source src="midia/Cromag Beat - Silent Partner.wav" type="image/wav">
+        <p>Seu navegador não suporta aúdio <a href="midia/Cromag Beat - Silent Partner.mp3" download="Cromag Beat - Silent Partner" type="audio/mpeg"></a></p>
+    </audio>
+</body>
+</html>
