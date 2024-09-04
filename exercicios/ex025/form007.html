@@ -24,14 +24,6 @@
                     </optgroup>
                 </select>
             </p>
-        </fieldset>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
-    </form>
-    <form action="cadastro.php">
-        <fieldset>
             <p>
                 <label for="iprof">Profissão</label>
                 <input type="text" required list="lstprof">
@@ -44,10 +36,15 @@
                     <option>professor</option>
                 </datalist>
             </p>
-        </fieldset>
+        
+            <p>
+                <label for="imsg">Mensagem: </label>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+        </fieldset>   
         <p>
-            <label for="cadastro.php">Mensagem: </label>
-            <input type="text">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
 </body>
