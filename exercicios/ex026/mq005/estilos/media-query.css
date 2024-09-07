@@ -1,0 +1,25 @@
+@charset "UTF-8" ;
+
+@media screen and (min-width: 768px) {
+    span#menu{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu li{
+        display: inline-block;
+    }
+    header{
+        height: 100px;
+    }
+    main{
+        width: 768px;
+        font-size: 1.2em;
+        
+    }
+    body{
+        background-color: lightgrey;
+        
+    }
+}
